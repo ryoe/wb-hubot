@@ -1,1 +1,1 @@
-web: bin/hubot -a slack -n moss
+web: bin/hubot -a slack -n hubot
