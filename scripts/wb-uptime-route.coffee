@@ -19,8 +19,11 @@ module.exports = (robot) ->
   robot.router.get '/hubot/coldheart', (req, res) ->
     res.end "warm bodies"
 
+  robot.router.get '/hubot/coldhearts', (req, res) ->
+    res.end "warm bodies"
+
   robot.router.get '/hubot/warmbodies', (req, res) ->
-    res.end "cold heart"
+    res.end "cold hearts"
 
   robot.router.get '/hubot/wb', (req, res) ->
-    res.end "cold heart"
+    res.end "cold hearts"
